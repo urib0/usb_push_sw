@@ -1,0 +1,186 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+3V3 #PWR?
+U 1 1 60B90105
+P 1300 2200
+F 0 "#PWR?" H 1300 2050 50  0001 C CNN
+F 1 "+3V3" H 1315 2373 50  0000 C CNN
+F 2 "" H 1300 2200 50  0001 C CNN
+F 3 "" H 1300 2200 50  0001 C CNN
+	1    1300 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L kicad_mylib:SW_push_2pin U?
+U 1 1 60B919F0
+P 1300 2900
+F 0 "U?" V 1354 3048 50  0000 L CNN
+F 1 "SW_push_2pin" V 1445 3048 50  0000 L CNN
+F 2 "" H 1500 3050 50  0001 C CNN
+F 3 "" H 1500 3050 50  0001 C CNN
+	1    1300 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60B92AEC
+P 1300 3350
+F 0 "R?" H 1370 3396 50  0000 L CNN
+F 1 "R" H 1370 3305 50  0000 L CNN
+F 2 "" V 1230 3350 50  0001 C CNN
+F 3 "~" H 1300 3350 50  0001 C CNN
+	1    1300 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60B957AC
+P 1300 3850
+F 0 "#PWR?" H 1300 3600 50  0001 C CNN
+F 1 "GND" H 1305 3677 50  0000 C CNN
+F 2 "" H 1300 3850 50  0001 C CNN
+F 3 "" H 1300 3850 50  0001 C CNN
+	1    1300 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 3850 1300 3500
+$Comp
+L Seeeduino_XIAO:SeeeduinoXIAO U?
+U 1 1 60B8E4A2
+P 3550 3150
+F 0 "U?" H 3525 2211 50  0000 C CNN
+F 1 "SeeeduinoXIAO" H 3525 2120 50  0000 C CNN
+F 2 "" H 3200 3350 50  0001 C CNN
+F 3 "" H 3200 3350 50  0001 C CNN
+	1    3550 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 60BA17BF
+P 1650 2400
+F 0 "#PWR?" H 1650 2250 50  0001 C CNN
+F 1 "+3V3" H 1665 2573 50  0000 C CNN
+F 2 "" H 1650 2400 50  0001 C CNN
+F 3 "" H 1650 2400 50  0001 C CNN
+	1    1650 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L kicad_mylib:SW_push_2pin U?
+U 1 1 60BA17C5
+P 1650 3050
+F 0 "U?" V 1704 3198 50  0000 L CNN
+F 1 "SW_push_2pin" V 1795 3198 50  0000 L CNN
+F 2 "" H 1850 3200 50  0001 C CNN
+F 3 "" H 1850 3200 50  0001 C CNN
+	1    1650 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60BA17CB
+P 1650 3500
+F 0 "R?" H 1720 3546 50  0000 L CNN
+F 1 "R" H 1720 3455 50  0000 L CNN
+F 2 "" V 1580 3500 50  0001 C CNN
+F 3 "~" H 1650 3500 50  0001 C CNN
+	1    1650 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60BA17D1
+P 1650 4000
+F 0 "#PWR?" H 1650 3750 50  0001 C CNN
+F 1 "GND" H 1655 3827 50  0000 C CNN
+F 2 "" H 1650 4000 50  0001 C CNN
+F 3 "" H 1650 4000 50  0001 C CNN
+	1    1650 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 4000 1650 3650
+Wire Wire Line
+	2050 4150 2050 3800
+$Comp
+L power:GND #PWR?
+U 1 1 60BA1FAF
+P 2050 4150
+F 0 "#PWR?" H 2050 3900 50  0001 C CNN
+F 1 "GND" H 2055 3977 50  0000 C CNN
+F 2 "" H 2050 4150 50  0001 C CNN
+F 3 "" H 2050 4150 50  0001 C CNN
+	1    2050 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60BA1FA9
+P 2050 3650
+F 0 "R?" H 2120 3696 50  0000 L CNN
+F 1 "R" H 2120 3605 50  0000 L CNN
+F 2 "" V 1980 3650 50  0001 C CNN
+F 3 "~" H 2050 3650 50  0001 C CNN
+	1    2050 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L kicad_mylib:SW_push_2pin U?
+U 1 1 60BA1FA3
+P 2050 3200
+F 0 "U?" V 2104 3348 50  0000 L CNN
+F 1 "SW_push_2pin" V 2195 3348 50  0000 L CNN
+F 2 "" H 2250 3350 50  0001 C CNN
+F 3 "" H 2250 3350 50  0001 C CNN
+	1    2050 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 60BA1F9D
+P 2050 2600
+F 0 "#PWR?" H 2050 2450 50  0001 C CNN
+F 1 "+3V3" H 2065 2773 50  0000 C CNN
+F 2 "" H 2050 2600 50  0001 C CNN
+F 3 "" H 2050 2600 50  0001 C CNN
+	1    2050 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2200 1300 2700
+Wire Wire Line
+	1650 2400 1650 2850
+Wire Wire Line
+	2050 2600 2050 3000
+Wire Wire Line
+	2700 2700 1300 2700
+Connection ~ 1300 2700
+Wire Wire Line
+	1300 2700 1300 2800
+Wire Wire Line
+	2700 2850 1650 2850
+Connection ~ 1650 2850
+Wire Wire Line
+	1650 2850 1650 2950
+Wire Wire Line
+	2700 3000 2050 3000
+Connection ~ 2050 3000
+Wire Wire Line
+	2050 3000 2050 3100
+$EndSCHEMATC
